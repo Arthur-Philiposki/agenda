@@ -31,15 +31,15 @@ if(!empty($_GET['id'])){
     Telefone:<br>
     <input type="text" name = "telefone" value="<?php echo $info['telefone']; ?>"/> <br><br>
     RedeSocial:<br>
-    <input type="text" name = "RedeSocial" value="<?php echo $info['redesocial']; ?>"/> <br><br>
+    <input type="text" name = "redesocial" value="<?php echo $info['redesocial']; ?>"/> <br><br>
     Profissao:<br>
-    <input type="text" name = "Profissao" value="<?php echo $info['profissao']; ?>"/> <br><br>
+    <input type="text" name = "profissao" value="<?php echo $info['profissao']; ?>"/> <br><br>
     Foto:<br>
-    <input type="text" name = "Foto" value="<?php echo $info['foto']; ?>"/> <br><br>
+    <input type="text" name = "foto" value="<?php echo $info['foto']; ?>"/> <br><br>
     Ativo:<br>
-    <input type="text" name = "Ativo" value="<?php echo $info['ativo']; ?>"/> <br><br>
+    <input type="text" name = "ativo" value="<?php echo $info['ativo']; ?>"/> <br><br>
     DataNasc:<br>
-    <input type="date" name = "DataNasc" value="<?php echo $info['datanasc']; ?>"/> <br><br>
+    <input type="date" name = "datanasc" value="<?php echo $info['datanasc']; ?>"/> <br><br>
 
     <input type="submit" value= "SALVAR">
 </from>

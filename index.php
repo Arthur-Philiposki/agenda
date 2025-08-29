@@ -1,8 +1,12 @@
 <?php
 include 'inc/header.inc.php';
 include 'classes/contato.class.php';
+include 'classes/funcoes.class.php';
 
 $contato = new Contato();
+
+$fn = new Funcoes();             /////////////
+
 ?>
 
 <h1>Agenda Senac 2025</h1>
@@ -39,7 +43,7 @@ $contato = new Contato();
             <td><?php echo $item['profissao'];?></td>
             <td><?php echo $item['foto'];?></td>
             <td><?php echo $item['ativo'];?></td>
-            <td><?php echo $item['datanasc'];?></td>
+            <td><?php echo $fn->dtnasc($item['datanasc'], 2);?></td>
             <td>
                 <a href="editarContato.php?id=<?php echo $item['id']?>">EDITAR</a>
                 <a href="#">/ EXCLUIR</a>

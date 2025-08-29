@@ -15,15 +15,15 @@ require 'inc/header.inc.php';
     Telefone:<br>
     <input type="text" name = "telefone"/> <br><br>
     RedeSocial:<br>
-    <input type="text" name = "RedeSocial"/> <br><br>
+    <input type="text" name = "redesocial"/> <br><br>
     Profissao:<br>
-    <input type="text" name = "Profissao"/> <br><br>
+    <input type="text" name = "profissao"/> <br><br>
     Foto:<br>
-    <input type="text" name = "Foto"/> <br><br>
+    <input type="text" name = "foto"/> <br><br>
     Ativo:<br>
-    <input type="text" name = "Ativo"/> <br><br>
+    <input type="text" name = "ativo"/> <br><br>
     DataNasc:<br>
-    <input type="date" name = "DataNasc"/> <br><br>
+    <input type="date" name = "datanasc"/> <br><br>
 
     <input type="submit" name="btCadastrar" value= "ADICIONAR">
 </from>

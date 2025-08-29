@@ -104,7 +104,7 @@ class Contato {                   //fechamento da clas é a ultima coisa
                 $sql->bindValue(':ativo', $ativo);
                 $sql->bindValue(':datanasc', $datanasc);
                 $sql->bindValue(':id', $id);
-                $sql->execue();
+                $sql->execute();
                 return TRUE;
 
             }catch(PDOException $ex){
