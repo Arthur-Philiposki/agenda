@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+    background-color: blueviolet;
+    height: 1000px;
+}
+
+header {
+    height: 300px;
+    background-color: aqua;
+}
+
+footer {
+    height: 200px;
+    
+}
